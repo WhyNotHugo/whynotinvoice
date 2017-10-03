@@ -18,7 +18,9 @@ SECRET_KEY = 'jmp99uRoeDazT9sCKyJwmBNiBKkoYlfwv44aCVjacIudUlTk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG', cast=bool, default=True)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'whynotinvoice.herokuapp.com',
+]
 
 
 # Application definition
