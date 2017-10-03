@@ -3,6 +3,7 @@ import os
 import sys
 
 import dj_database_url
+from envparse import env
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -15,7 +16,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jmp99uRoeDazT9sCKyJwmBNiBKkoYlfwv44aCVjacIudUlTk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env('DEBUG', cast=bool, default=True)
 
 ALLOWED_HOSTS = []
 
