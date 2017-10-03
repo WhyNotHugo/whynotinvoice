@@ -12,6 +12,8 @@ gunicorn = "*"
 whitenoise = "*"
 "psycopg2" = "*"
 envparse = "*"
+"django-storages" = "*"
+"boto3" = "*"
 
 
 [dev-packages]
