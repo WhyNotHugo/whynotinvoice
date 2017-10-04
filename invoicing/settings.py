@@ -3,6 +3,7 @@ import os
 import sys
 
 import dj_database_url
+import raven
 from envparse import env
 
 
@@ -25,6 +26,7 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'raven.contrib.django.raven_compat',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -179,3 +181,6 @@ LOGGING = {
 }
 logging.captureWarnings(True)
 logging.basicConfig(level=logging.DEBUG)
+
+
+RAVEN_CONFIG = {}

@@ -15,6 +15,7 @@ envparse = "*"
 "django-storages" = "*"
 boto = "*"
 pybarcode = ">=0.8b1"
+raven = "*"
 
 
 [dev-packages]
