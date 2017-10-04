@@ -183,10 +183,10 @@
         },
         "django-afip": {
             "hashes": [
-                "sha256:ace81e913a121cfb4f73f200de947d2c678acde6ff699b278db82461d853f6f7",
-                "sha256:b369ab2b3205d495054fbe8bcbc38785a397760e953bb7dce859989825f38145"
+                "sha256:26ea197a09067af4588744b4e2021390b754127c8929ce6396d3871cd35f073b",
+                "sha256:79c712cf1e32340cc336e89855e2eb10c94ddac8a34a4f6c08bf8bbb981e0826"
             ],
-            "version": "==4.1.3"
+            "version": "==4.1.4"
         },
         "django-storages": {
             "hashes": [
