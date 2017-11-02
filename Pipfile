@@ -1,12 +1,14 @@
 [[source]]
+
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
+
 [packages]
 
-django-afip = ">=4.1.6"
-django = ">=2.0a1"
+django-afip = ">=4.1.7,<5.0"
+django = ">=2.0b1,<2.1"
 dj-database-url = "*"
 gunicorn = "*"
 whitenoise = "*"
