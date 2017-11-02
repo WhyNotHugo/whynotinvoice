@@ -5,19 +5,19 @@ name = "pypi"
 
 [packages]
 
-"django-afip" = ">=4.1.6"
+django-afip = ">=4.1.6"
 django = ">=2.0a1"
-"dj-database-url" = "*"
+dj-database-url = "*"
 gunicorn = "*"
 whitenoise = "*"
 "psycopg2" = "*"
 envparse = "*"
-"django-storages" = "*"
+django-storages = "*"
 boto = "*"
-pybarcode = ">=0.8b1"
+python-barcode = "*"
 raven = "*"
 
 
 [dev-packages]
 [pipenv]
-"allow_prereleases" = true
+allow_prereleases = true
