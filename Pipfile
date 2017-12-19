@@ -7,8 +7,8 @@ name = "pypi"
 
 [packages]
 
-django-afip = ">=4.1.7,<5.0"
-django = ">=2.0b1,<2.1"
+django-afip = "*"
+django = "*"
 dj-database-url = "*"
 gunicorn = "*"
 whitenoise = "*"
@@ -16,10 +16,8 @@ whitenoise = "*"
 envparse = "*"
 django-storages = "*"
 boto = "*"
-python-barcode = "*"
 raven = "*"
 
 
 [dev-packages]
-[pipenv]
-allow_prereleases = true
+
