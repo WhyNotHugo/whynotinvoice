@@ -2,15 +2,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django_afip import views
 
 
-class SafeReceiptPDFDisplayView(
+class SafeReceiptPDFView(
     LoginRequiredMixin,
-    views.ReceiptPDFDisplayView,
-):
-    pass
-
-
-class SafeReceiptHTMLView(
-    LoginRequiredMixin,
-    views.ReceiptHTMLView,
+    views.ReceiptPDFView,
 ):
     pass

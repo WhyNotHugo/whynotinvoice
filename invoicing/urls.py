@@ -6,16 +6,11 @@ from django.views.static import serve
 from invoicing import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('/', admin.site.urls),
     path(
         '^invoices/pdf/<int:pk>$',
-        views.SafeReceiptPDFDisplayView.as_view(),
+        views.SafeReceiptPDFView.as_view(),
         name='receipt_pdf_view',
-    ),
-    path(
-        '^invoices/html/<int:pk>\d+)$',
-        views.SafeReceiptHTMLView.as_view(),
-        name='receipt_html_view',
     ),
     path(
         '^media/<str:path>$',
