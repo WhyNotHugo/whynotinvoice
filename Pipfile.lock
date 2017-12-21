@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "79f92996012d69dfb125c9259ebbd669a26617b2940f066d2d661b7d4a74d94d"
+            "sha256": "c26e528a13e9660566ccc35ae2307688ecd1dd9d260c95b10872154ad3989fda"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -176,17 +176,17 @@
         },
         "django-afip": {
             "hashes": [
-                "sha256:add027d81450c12e8dc7a01480a25caf5995232a497c086d3923d0561658387f",
-                "sha256:66215ebc8d117346baadd80526994189f1913667a41a589c6c977ee0b5ba5d0f"
+                "sha256:beb4c7ebb970a9c9d6816b060d1e429ca7c117851b977cb51913c00490a3e546",
+                "sha256:92c7f9cee173f1958e57eac3952e32faabda46e3ff5254520f924b29df1aae4c"
             ],
-            "version": "==5.0.0"
+            "version": "==5.0.1"
         },
         "django-renderpdf": {
             "hashes": [
-                "sha256:728f540195ecdd2ff0d67aeef2bb5c756af6e0d61f15b3d92fa727a21bbc10f3",
-                "sha256:2490f77bfb08a95a7aa357978be9290240bb6250a4e4e5942afe401a3d278122"
+                "sha256:e053a18f2f41cb8dbadc45dd63616e9ead4b829b8f945914ea9982153aa42be3",
+                "sha256:c18e6e6cb455396797eebb48306919ccc608344366685ba5afb0d35eefbf1e7e"
             ],
-            "version": "==0.1.1"
+            "version": "==1.0.0"
         },
         "django-storages": {
             "hashes": [

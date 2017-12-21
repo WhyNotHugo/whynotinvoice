@@ -17,6 +17,7 @@ envparse = "*"
 django-storages = "*"
 boto = "*"
 raven = "*"
+django-renderpdf = ">=1.0.0"
 
 
 [dev-packages]
