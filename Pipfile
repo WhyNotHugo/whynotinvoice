@@ -1,12 +1,9 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 django-afip = "*"
 django = "*"
 dj-database-url = "*"
@@ -14,11 +11,9 @@ gunicorn = "*"
 whitenoise = "*"
 "psycopg2" = "*"
 envparse = "*"
-django-storages = "*"
+django-storages = {extras = ["boto3"], version = "*"}
 boto = "*"
 raven = "*"
 django-renderpdf = ">=1.0.0"
 
-
 [dev-packages]
-
